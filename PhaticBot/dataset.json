@@ -1,0 +1,25 @@
+﻿{
+  "Reserve": {
+    "\\?": [
+      "I have to think",
+      "Well...it's hard to say",
+      "Why are you asking this question?",
+      "Who knows...",
+      "I'm not sure",
+      "Let's change topic. I don't want to answer this question"
+    ],
+    "(.*?)": [
+      "it's interesting, isn't it",
+      "I see your point of view",
+      "do you really think so?",
+      "are you sure?",
+      "I disagree with you",
+      "I know a lot of people like you"
+    ]
+  },
+  "Family": {
+    ".*?(?i)(mother|mum|father|daddy|dad|granny).*": [
+      "tell me more about your {0}"
+    ]
+  }
+}
